@@ -1,0 +1,37 @@
+ git log
+commit 185c5ae6b70f4a2d5836e3d276f6384d81917122 (HEAD -> master, origin/master, bug3)
+Author: dejan.i <dejo_oh@hotmail.com>
+Date:   Sun Apr 9 19:21:39 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 50b48bc670e615205701610d741f2464c6f8a6e0
+Merge: 7fa8f33 8a8555e
+Author: dejan.i <dejo_oh@hotmail.com>
+Date:   Sun Apr 9 19:26:15 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 8a8555ea60c4ead611779b43efc501ff2a6eaf9d (origin/bug2, bug2)
+Author: dejan.i <dejo_oh@hotmail.com>
+Date:   Sun Apr 9 19:14:56 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit 7fa8f330f1793746df6e536da80030d12bd09669 (origin/bug1, bug1)
+Author: dejan.i <dejo_oh@hotmail.com>
+Date:   Sun Apr 9 19:10:56 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit dd34d311303973b9c4f130bdc9220cc5cdadac15
+Author: dejan.i <dejo_oh@hotmail.com>
+Date:   Sun Apr 9 18:33:34 2023 +0200
+
+    Add java class
+
+commit f6030609e1eadeb575433abcf163fa9ae69f6e6e
+Author: dejan.i <dejo_oh@hotmail.com>
+Date:   Sun Apr 9 18:30:42 2023 +0200
+
+    Initial commit
