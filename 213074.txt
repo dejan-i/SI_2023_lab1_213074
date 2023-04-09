@@ -1,0 +1,74 @@
+-kreirav git profil
+-ja preimenuvav grankata vo "master"
+
+3. na github kreirav repozitorium so ime"SI_2023_lab1_213074"
+
+4. kreirav lokalen repozitorium so komandata "mkdir"
+mkdir SI_2023_lab1_213074
+
+5. dvata repozitoriumi gi povrzav so komandata "git remote add origin <URL>"
+git remote add origin https://github.com/dejan-i/SI_2023_lab1_213074.git
+
+6. napraviv README.md fajl so komandata nano
+nano README.md
+(ja zacuvuvame so Ctrl+C + Ctrl+X + Y)
+potoa so git add README.md go podgotvuvame fajlot za commit
+i na kraj pravime commit so komandata git commit -m
+git commit -m "Initial commit"
+
+7. fajlot SILab1.java go napraviv so komandata nano
+nano SILab1.java
+ Go paste kodot, zacuvav i povtorno pravam git add i git commit
+git add SILab1.java
+git commit -m "Add java class."
+
+8. za sinhroniziranje na grankite iskoristiv git push
+git push origin master
+
+9. kreiram granki bug1, bug2, bug3 so komandata git checkout -b "ime"
+ -git checkout -b bug1
+ -git checkout master  
+ (za da se vratam na master a ne da kreiram bug2 vo bug1)
+ -git checkout -b bug2
+ -git checkout master
+ -git checkout -b bug3
+
+10. pristapuvam do grankata so "git checkout bug1"
+11. ja otvarame klasata so "nano SILab1.java"
+    pravam add pa commit isto kako prethodno
+
+12,13,14,15 se isti kako i cekorite 10 i 11
+
+16.se prefrlam na granka1 so "git checkout bug1"
+   gi sinhroniziram so komandata "git push origin"
+      git push origin bug1
+
+  istoto go pravam i za drugite 2 granki
+
+17. se prefrlam na master so komandata
+	git checkout master
+
+18. gi spojuvam so komandata
+	git merge bug1
+
+19. se prefrlam kon grankata sto sakam da ja sinhroniziram,
+   vo slucajov bug1, pa sinhroniziram so komandata "git push"
+	git push origin bug1
+
+20/21. istoto kako i kaj bug1 (18 i 19 cekor)
+
+22. se prefrlam na tretata granka so checkout
+23. za da napravam Rebase:
+	git fetch
+	git rebase master
+
+24. se vrajkam na master so "git checkout master"
+
+25. pravam merge
+	git merge bug3
+
+26. sinhroniziram
+	git push origin master
+
+27. gi dobivam log-ovite so "git log"
+-kreiram fajlovi so "nano"
